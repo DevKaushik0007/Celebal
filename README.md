@@ -16,16 +16,21 @@ A modern and responsive registration form built using **React**, featuring full 
 ## 📂 Project Structure
 
 project-root/
-│
 ├── src/
-│ ├── FormPage.jsx # Main form component
-│ ├── SuccessPage.jsx # Page shown after submission
-│ ├── FormPage.css # Styles for the form page
-│ ├── SuccessPage.css # Styles for the success page
-│ └── index.js # Entry point
-│
-├── App.js # React Router setup
-└── README.md # You're reading it 🙂
+│   ├── App.js              # React Router setup
+│   ├── FormPage.jsx        # Main form component
+│   ├── FormPage.css        # Styles for the form page
+│   ├── SuccessPage.jsx     # Page shown after submission
+│   ├── SuccessPage.css     # Styles for the success page
+│   └── index.js            # React entry point
+├── public/
+│   └── index.html          # HTML template
+├── assets/
+│   ├── form-preview.png    # Screenshot of the form
+│   └── success-page.png    # Screenshot of the success page
+├── package.json            # Project metadata and dependencies
+├── vite.config.js          # Vite config file
+└── README.md               # You're reading it 🙂
 
 
 ## 🔧 How to Run Locally
