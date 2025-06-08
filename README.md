@@ -53,11 +53,11 @@ Plain CSS (no frameworks)
 
 Here is how the form looks:
 
-![Form Preview](./assets/form-preview.png)
+![Form Preview](./Week-1/assets/form-preview.png)
 
 Success page after submission:
 
-![Success Page](./assets/success-page.png)
+![Success Page](./Week-1/assets/success-page.png)
 
 
 📄 License
