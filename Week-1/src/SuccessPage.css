@@ -1,0 +1,42 @@
+.success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  min-height: 100vh;
+}
+
+.success-container h2 {
+  font-size: 28px;
+  color: #2ecc71;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.result-card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  animation: fadeIn 0.5s ease;
+}
+
+.result-field {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.result-label {
+  font-weight: 600;
+  color: #34495e;
+  text-transform: capitalize;
+}
+
+.result-value {
+  color: #2c3e50;
+  font-weight: 500;
+}
